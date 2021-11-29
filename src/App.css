@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  background: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App > div {
+  width: 100%;
+  max-width: calc(100% - 2rem);
+}
+
+@media (min-width: 700px){
+  .App > div {
+    max-width: calc(100% - 20rem);
+  }
+}
+
+.react-chatbot-kit-chat-container {
+  width: 100%;
+}
+
+.react-chatbot-kit-chat-inner-container {
+  height: unset;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  margin: 0;
+  width: 100%;
+}
+
+.react-chatbot-kit-chat-message-container {
+  height: unset;
+  min-height: 600px;
+  max-height: calc(100vh - 10rem);
+}
