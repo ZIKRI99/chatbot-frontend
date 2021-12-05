@@ -2,7 +2,7 @@ import axios from "axios";
 export const getDialogFlowResponse = async (data) => {
   const res = await axios({
     method: "post",
-    url: "https://movie-sample-app.herokuapp.com/dialogflow-response",
+    url: "https://chatbot-server-sample.herokuapp.com/dialogflow-response",
     data: data,
   });
 
